@@ -22,9 +22,7 @@ edge_labels = nx.get_edge_attributes(G, 'weight')
 nx.draw_networkx_nodes(G, pos, node_color='red', node_size=500,)
 
 nx.draw_networkx_edges(G, pos, edge_color='purple', arrows=True)
-
 nx.draw_networkx_labels(G, pos)
-
 nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels)
 
 plt.title("Historyjka 2")
